@@ -1,0 +1,59 @@
+:root {
+    --main-text-color: #757575;
+    --logo-color: #000000;
+    --secondary-title-colour: #FFFFFF;
+    --title-colour: #212121;
+    --akcent-colour: #2196F3;
+    --main-font: "Roboto"; sans-serif;
+    --secondary-font: "Raleway"; sans-serif;
+}
+
+/* стилі сторінки */
+
+.page {
+    font-family: var(--maint-font);
+    color: var(--main-text-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+}
+
+.web {
+    color: var(--akcent-colour);
+}
+
+/* nav */
+
+.nav-link {
+    color: var var(--title-colour);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link {
+    color: var(--main-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--akcent-colour)
+}
+
