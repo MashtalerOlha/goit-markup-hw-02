@@ -14,20 +14,19 @@
     font-family: var(--maint-font);
     color: var(--main-text-color);
 }
-.list {
+
+.link {
     list-style: none;
 }
-.link {
-    text-decoration: none;
-}
+
 
 /* logo */
 
 .logo {
     font-family: var(--secondary-font);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logo-color);
 }
@@ -39,10 +38,10 @@
 /* nav */
 
 .nav-link {
-    color: var var(--title-colour);
+    color:var(--title-colour);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -56,4 +55,92 @@
 .contacts-link:focus {
     color: var(--akcent-colour)
 }
+ .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-title-colour);
+    background-color: #2F303A;
+ }
+ .hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-title-colour);
+    background-color: var(--akcent-colour);
+ }
 
+ /* <!-- секція про нас --> */
+
+ .about-us-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-colour);
+ }
+
+ .about-us-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;   
+    color: var(--main-text-color);
+ }
+
+ /* <!-- секція чим ми займамося --> */
+
+ .work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-colour)
+}
+
+/* <!-- секція наша команда --> */
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-colour);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-colour);
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/* footer */
+
+.address {
+    font-weight: 400
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-colour);
+}
