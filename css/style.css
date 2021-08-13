@@ -29,7 +29,7 @@
 
 /* хедер */
 
-.heder {
+.header {
     background-color: var(--secondary-title-color);
 }
 
@@ -90,6 +90,7 @@
     letter-spacing: 0.06em;
     color: var(--secondary-title-color);
     background-color: var(--akcent-color);
+    cursor: pointer;
  }
  .section-hero {
     background-color: var(--secondary-background-color);
@@ -166,12 +167,17 @@
 
 
 .address {
+    font-style: normal;
+}
+
+.address-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
 }
+ 
 
 .footer {
     background-color: var(--secondary-background-color);
@@ -188,6 +194,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-colour);
+    cursor: pointer;
 }
 
 .filter-button:hover,
