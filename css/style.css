@@ -8,12 +8,12 @@
     --secondary-font: "Raleway"; sans-serif;
     --main-background-color:#E5E5E5 ;
     --secondary-background-color: #2F303A;
+    --backgraund-team-color: #F5F4FA;
 }
-
 /* стилі сторінки */
 
 .page {
-    font-family: var(--maint-font);
+    font-family: var(--main-font);
     color: var(--main-text-color);
     background-color: var(--main-background-color);
 }
@@ -126,6 +126,10 @@
 
 /* <!-- секція наша команда --> */
 
+.team {
+    background-color: var(--backgraund-team-color);
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -176,7 +180,14 @@
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
 }
+ .contacts-link-footer {
+color: var(--secondary-title-color);     
+ }
  
+ .contacts-link-footer:hover,
+.contacts-link-footer:focus {
+    color: var(--akcent-color)
+}
 
 .footer {
     background-color: var(--secondary-background-color);
@@ -192,7 +203,8 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-colour);
+    color: var(--title-color);
+    background-color: var(--backgraund-team-color);
     cursor: pointer;
 }
 
